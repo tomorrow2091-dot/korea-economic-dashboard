@@ -2391,6 +2391,23 @@
 
         // Initialize dashboard on page load
         document.addEventListener('DOMContentLoaded', initializeDashboard);
-    </script>
+<!-- 중간에 ... 본문 코드가 쭉 있다가 ... -->
+
+<!-- 페이지 맨 아래 -->
+<script>
+fetch('./data/dashboard_data.json')
+  .then(response => response.json())
+  .then(function (data) {
+    // 예시: "마지막 업데이트" 표시
+    document.getElementById('lastUpdateTime').textContent = '마지막 업데이트: ' + data.last_updated_display;
+
+    // GICI, 비트코인 등 필요한 값 연결 예시
+    document.getElementById('giciScore').textContent = 'GICI: ' + data.gici.current_score;
+    document.getElementById('bitcoinUsd').textContent = 'BTC(USD): ' + data.crypto.bitcoin.usd;
+    document.getElementById('bitcoinKrw').textContent = 'BTC(KRW): ' + data.crypto.bitcoin.krw;
+
+    // 추가로 필요한 부분 위 코드처럼 계속 연결해서 사용
+  });
+</script>
 </body>
 </html>
