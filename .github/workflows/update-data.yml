@@ -38,13 +38,18 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-    - name: 🔄 데이터 커밋 및 푸시
+        - name: 🔄 데이터 커밋 및 푸시
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}
       run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "Dashboard Bot"
+        git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
         git add .
         if git diff --staged --quiet; then
           echo "ℹ️ 변경사항 없음 - 커밋 생략"
         else
-          git commit -m "🔄 자동 데이터 업데이트: $(date '+%Y년 %m월 %d일 %H:%M KST')"
-          git push
+          git commit -m "🔄 자동 데이터 업데이트: $(TZ=Asia/Seoul date '+%Y년 %m월 %d일 %H:%M KST')"
+          git push origin main
           echo "✅ 데이터 업데이트 완료"
         fi
