@@ -2404,6 +2404,16 @@ document.getElementById('github-connect').onclick = function() {
 
         // Initialize dashboard on page load
         document.addEventListener('DOMContentLoaded', initializeDashboard);
-    </script>
+<script>
+fetch('./data/dashboard_data.json')
+  .then(response => response.json())
+  .then(data => {
+    window.dashboardData = data;
+    if (typeof initializeDashboard === 'function') {
+      initializeDashboard(data);
+    }
+  });
+</script>
 </body>
 </html>
+
