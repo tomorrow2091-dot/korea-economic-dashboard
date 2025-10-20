@@ -1,0 +1,208 @@
+{
+  "version": "2.0",
+  "last_updated": "2025-10-20T12:26:37.458205",
+  "last_updated_display": "2025년 10월 20일 12:26 KST",
+  "year": 2025,
+  "data_source": "GitHub 실시간 연동",
+  "countries": [
+    {
+      "rank": 1,
+      "country": "미국",
+      "flag": "🇺🇸",
+      "sentiment": "positive",
+      "gdp": 2.6,
+      "companies": [
+        {
+          "icon": "🍎",
+          "name": "Apple",
+          "sector": "기술/전자"
+        },
+        {
+          "icon": "💻",
+          "name": "Microsoft",
+          "sector": "AI/소프트웨어"
+        },
+        {
+          "icon": "🎮",
+          "name": "NVIDIA",
+          "sector": "반도체/AI칩"
+        },
+        {
+          "icon": "⚡",
+          "name": "Tesla",
+          "sector": "전기차"
+        },
+        {
+          "icon": "📦",
+          "name": "Amazon",
+          "sector": "이커머스/클라우드"
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "country": "한국",
+      "flag": "🇰🇷",
+      "sentiment": "mixed",
+      "gdp": 2.0,
+      "companies": [
+        {
+          "icon": "📱",
+          "name": "삼성전자",
+          "sector": "반도체/가전"
+        },
+        {
+          "icon": "💾",
+          "name": "SK하이닉스",
+          "sector": "HBM/메모리"
+        },
+        {
+          "icon": "🚗",
+          "name": "현대자동차",
+          "sector": "자동차"
+        },
+        {
+          "icon": "💚",
+          "name": "네이버",
+          "sector": "인터넷/AI"
+        },
+        {
+          "icon": "🔋",
+          "name": "LG에너지솔루션",
+          "sector": "배터리"
+        },
+        {
+          "icon": "🚀",
+          "name": "한화에어로스페이스",
+          "sector": "방산"
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "country": "일본",
+      "flag": "🇯🇵",
+      "sentiment": "positive",
+      "gdp": 1.2,
+      "companies": [
+        {
+          "icon": "🚗",
+          "name": "Toyota",
+          "sector": "자동차"
+        },
+        {
+          "icon": "🎮",
+          "name": "Sony",
+          "sector": "전자/게임"
+        },
+        {
+          "icon": "🤖",
+          "name": "Keyence",
+          "sector": "산업자동화"
+        },
+        {
+          "icon": "📱",
+          "name": "SoftBank",
+          "sector": "통신/투자"
+        },
+        {
+          "icon": "👕",
+          "name": "Fast Retailing",
+          "sector": "의류"
+        }
+      ]
+    }
+  ],
+  "indices": {
+    "sp500": {
+      "price": 664.39,
+      "ytd": 22.3
+    },
+    "kospi_proxy": {
+      "price": 88.52,
+      "ytd": -9.6
+    }
+  },
+  "crypto": {
+    "bitcoin": {
+      "usd": 111052,
+      "usd_24h_change": 3.2170288100820876,
+      "krw": 158064668,
+      "krw_24h_change": 3.3329499534781433
+    },
+    "ethereum": {
+      "usd": 4036.97,
+      "usd_24h_change": 3.1154820736549236,
+      "krw": 5745973,
+      "krw_24h_change": 3.231289171782173
+    },
+    "solana": {
+      "usd": 192.16,
+      "usd_24h_change": 1.9140884420231399,
+      "krw": 273515,
+      "krw_24h_change": 2.0285462770970266
+    }
+  },
+  "gici": {
+    "current_score": 66,
+    "previous_score": 67,
+    "change": -1,
+    "components": {
+      "economic_growth": 63,
+      "monetary_policy": 75,
+      "inflation_trend": 70,
+      "market_volatility": 80,
+      "corporate_earnings": 58,
+      "geopolitical_risk": 50
+    },
+    "signals": {
+      "stocks": "매수 - 미국: AI/기술, 한국: 반도체/인터넷/방산",
+      "crypto": "매수 - 비트코인 기관 채택",
+      "real_estate": "보유 - 금리 추이 관찰",
+      "bonds": "보유 - 수익률 4.2%",
+      "commodities": "회피 - 강달러"
+    }
+  },
+  "korea_themes": [
+    {
+      "name": "반도체 & AI",
+      "ytd": -5,
+      "signal": "선별 매수"
+    },
+    {
+      "name": "인터넷 & 플랫폼",
+      "ytd": 12,
+      "signal": "매수"
+    },
+    {
+      "name": "금융",
+      "ytd": 8,
+      "signal": "매수"
+    },
+    {
+      "name": "2차전지",
+      "ytd": -15,
+      "signal": "회피"
+    },
+    {
+      "name": "바이오 & 제약",
+      "ytd": 3,
+      "signal": "선별 매수"
+    },
+    {
+      "name": "건설 & 부동산",
+      "ytd": -12,
+      "signal": "회피"
+    },
+    {
+      "name": "방위산업",
+      "ytd": 25,
+      "signal": "매수"
+    },
+    {
+      "name": "조선 & 해운",
+      "ytd": 18,
+      "signal": "매수"
+    }
+  ]
+}
