@@ -2398,16 +2398,13 @@
 fetch('./data/dashboard_data.json')
   .then(response => response.json())
   .then(function (data) {
-    // 예시: "마지막 업데이트" 표시
+    // 마감 시간
     document.getElementById('lastUpdateTime').textContent = '마지막 업데이트: ' + data.last_updated_display;
-
-    // GICI, 비트코인 등 필요한 값 연결 예시
+    // GICI 점수
     document.getElementById('giciScore').textContent = 'GICI: ' + data.gici.current_score;
-    document.getElementById('bitcoinUsd').textContent = 'BTC(USD): ' + data.crypto.bitcoin.usd;
-    document.getElementById('bitcoinKrw').textContent = 'BTC(KRW): ' + data.crypto.bitcoin.krw;
-
-    // 추가로 필요한 부분 위 코드처럼 계속 연결해서 사용
+    // 비트코인, 다른 값도 원하는 id에 맞게 data에서 꺼내 반영 가능!
   });
 </script>
 </body>
 </html>
+
