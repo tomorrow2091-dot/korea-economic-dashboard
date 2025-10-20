@@ -5,7 +5,6 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
-
 permissions:
   contents: write
 
@@ -32,7 +31,7 @@ jobs:
         ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
         FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
         BANK_OF_KOREA_KEY: ${{ secrets.BANK_OF_KOREA_KEY }}
-      run: python fetch_korea_data_v2.py
+      run: python update_dashboard_data.py   # ← 여기를 변경!!
 
     - name: 📝 Git 설정
       run: |
