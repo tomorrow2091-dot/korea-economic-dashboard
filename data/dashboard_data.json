@@ -1,7 +1,7 @@
 {
   "version": "2.0",
-  "last_updated": "2025-10-20T14:43:23.892927",
-  "last_updated_display": "2025년 10월 20일 14:43 KST",
+  "last_updated": "2025-10-20T14:54:26.603468",
+  "last_updated_display": "2025년 10월 20일 14:54 KST",
   "year": 2025,
   "data_source": "GitHub 실시간 연동",
   "countries": [
@@ -121,22 +121,22 @@
   },
   "crypto": {
     "bitcoin": {
-      "usd": 111093,
-      "usd_24h_change": 2.662617205699936,
-      "krw": 157778456,
-      "krw_24h_change": 2.554220966457876
+      "usd": 111249,
+      "usd_24h_change": 2.590694302772549,
+      "krw": 158050583,
+      "krw_24h_change": 2.514626709552119
     },
     "ethereum": {
-      "usd": 4033.52,
-      "usd_24h_change": 1.307291136800362,
-      "krw": 5728567,
-      "krw_24h_change": 1.2003259174641707
+      "usd": 4037.48,
+      "usd_24h_change": 1.1676086628075475,
+      "krw": 5735991,
+      "krw_24h_change": 1.0925962403344607
     },
     "solana": {
-      "usd": 191.39,
-      "usd_24h_change": 0.2733616234353101,
-      "krw": 271821,
-      "krw_24h_change": 0.16748807771839047
+      "usd": 191.32,
+      "usd_24h_change": 0.022173867238692396,
+      "krw": 271801,
+      "krw_24h_change": -0.05198925336853525
     }
   },
   "gici": {
