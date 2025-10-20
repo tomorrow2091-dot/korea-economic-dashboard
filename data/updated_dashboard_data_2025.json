@@ -1,0 +1,181 @@
+{
+  "last_updated": "2025-10-20T11:46:28.212029",
+  "last_updated_display": "2025년 10월 20일 20:46 KST (실시간)",
+  "version": "2.0",
+  "data_source": "GitHub Auto-Update",
+  "countries": [
+    {
+      "rank": 1,
+      "country": "미국 (United States)",
+      "flag": "🇺🇸",
+      "sentiment": "positive",
+      "color": "green",
+      "gdp_growth": 2.6,
+      "inflation": 2.9,
+      "unemployment": 4.3,
+      "stock_index": "S&P 500: 5,864 (+22.3% YTD)",
+      "representative_companies": [
+        {"name": "Apple", "sector": "기술/전자", "icon": "🍎"},
+        {"name": "Microsoft", "sector": "소프트웨어/AI", "icon": "💻"},
+        {"name": "NVIDIA", "sector": "반도체/AI칩", "icon": "🎮"},
+        {"name": "Tesla", "sector": "전기차", "icon": "⚡"},
+        {"name": "Amazon", "sector": "이커머스/클라우드", "icon": "📦"}
+      ],
+      "key_issues": "강한 노동시장, 연준 금리 인하 시작, AI 투자 붐",
+      "investment_themes": "AI/기술, 금융, 통신서비스",
+      "outlook": "연착륙 가능성 높음. 2025년 성장률 2.5% 전망"
+    },
+    {
+      "rank": 2,
+      "country": "중국 (China)",
+      "flag": "🇨🇳",
+      "sentiment": "mixed",
+      "color": "yellow",
+      "gdp_growth": 4.8,
+      "inflation": -0.3,
+      "unemployment": 5.3,
+      "stock_index": "상해종합: 3,254 (-2.1% YTD)",
+      "representative_companies": [
+        {"name": "Alibaba", "sector": "이커머스/클라우드", "icon": "🛒"},
+        {"name": "Tencent", "sector": "게임/SNS", "icon": "🎮"},
+        {"name": "BYD", "sector": "전기차/배터리", "icon": "🔋"},
+        {"name": "CATL", "sector": "배터리", "icon": "⚡"},
+        {"name": "SMIC", "sector": "반도체", "icon": "💾"}
+      ],
+      "key_issues": "정부 부양책 발표, 부동산 위기 지속, 디플레이션 압력",
+      "investment_themes": "전기차, 배터리, 제조업",
+      "outlook": "2025년 성장률 4.5% 전망. 부동산 부문 회복이 관건"
+    },
+    {
+      "rank": 3,
+      "country": "일본 (Japan)",
+      "flag": "🇯🇵",
+      "sentiment": "positive",
+      "color": "green",
+      "gdp_growth": 1.2,
+      "inflation": 2.7,
+      "unemployment": 2.6,
+      "stock_index": "닛케이225: 38,920 (+17.2% YTD)",
+      "representative_companies": [
+        {"name": "Toyota", "sector": "자동차", "icon": "🚗"},
+        {"name": "Sony", "sector": "전자/게임", "icon": "🎮"},
+        {"name": "Keyence", "sector": "산업자동화", "icon": "🤖"},
+        {"name": "SoftBank", "sector": "통신/투자", "icon": "📱"},
+        {"name": "Fast Retailing", "sector": "의류(유니클로)", "icon": "👕"}
+      ],
+      "key_issues": "일본은행 금리 정상화, 엔화 약세 반전, 임금 상승",
+      "investment_themes": "자동화, 로보틱스, 반도체장비",
+      "outlook": "정책 정상화로 안정적 성장. 2025년 1.5% 전망"
+    },
+    {
+      "rank": 4,
+      "country": "한국 (South Korea)",
+      "flag": "🇰🇷",
+      "sentiment": "mixed",
+      "color": "yellow",
+      "gdp_growth": 2.0,
+      "inflation": 1.7,
+      "unemployment": 2.6,
+      "stock_index": "코스피: 2,595 (-9.6% YTD) | 코스닥: 754 (-21.7% YTD)",
+      "representative_companies": [
+        {"name": "삼성전자", "sector": "반도체/가전", "icon": "📱"},
+        {"name": "SK하이닉스", "sector": "메모리반도체/HBM", "icon": "💾"},
+        {"name": "현대자동차", "sector": "자동차", "icon": "🚗"},
+        {"name": "네이버", "sector": "인터넷/AI", "icon": "💚"},
+        {"name": "LG에너지솔루션", "sector": "배터리", "icon": "🔋"},
+        {"name": "한화에어로스페이스", "sector": "방위산업", "icon": "🚀"}
+      ],
+      "key_issues": "내수 부진, HBM 수출 급증, 방산 수출 호조, 2차전지 경쟁 심화",
+      "investment_themes": "반도체(HBM), 인터넷 AI, 금융, 방산, 조선",
+      "outlook": "2025년 성장률 1.9% 전망. 반도체 회복과 내수 회복이 관건"
+    },
+    {
+      "rank": 5,
+      "country": "독일 (Germany)",
+      "flag": "🇩🇪",
+      "sentiment": "negative",
+      "color": "red",
+      "gdp_growth": -0.3,
+      "inflation": 2.4,
+      "unemployment": 6.3,
+      "stock_index": "DAX: 19,432 (+15.8% YTD)",
+      "representative_companies": [
+        {"name": "SAP", "sector": "소프트웨어", "icon": "💻"},
+        {"name": "Mercedes-Benz", "sector": "자동차", "icon": "🚙"},
+        {"name": "Siemens", "sector": "산업/자동화", "icon": "⚙️"},
+        {"name": "BASF", "sector": "화학", "icon": "🧪"},
+        {"name": "Volkswagen", "sector": "자동차", "icon": "🚗"}
+      ],
+      "key_issues": "제조업 침체, 중국 의존도 타격, 높은 에너지 비용",
+      "investment_themes": "소프트웨어, 방산, 재생에너지",
+      "outlook": "2025년 0.5% 성장 전망. 구조 개혁 필요"
+    },
+    {
+      "rank": 6,
+      "country": "인도 (India)",
+      "flag": "🇮🇳",
+      "sentiment": "very_positive",
+      "color": "green",
+      "gdp_growth": 7.8,
+      "inflation": 5.2,
+      "unemployment": 5.2,
+      "stock_index": "SENSEX: 81,559 (+12.4% YTD)",
+      "representative_companies": [
+        {"name": "Reliance", "sector": "에너지/통신", "icon": "⛽"},
+        {"name": "TCS", "sector": "IT서비스", "icon": "💻"},
+        {"name": "Infosys", "sector": "IT서비스", "icon": "💼"},
+        {"name": "HDFC Bank", "sector": "금융", "icon": "🏦"},
+        {"name": "Bharti Airtel", "sector": "통신", "icon": "📱"}
+      ],
+      "key_issues": "인구 배당, 인프라 투자 확대, 제조업 육성",
+      "investment_themes": "IT서비스, 인프라, 소비재, 금융",
+      "outlook": "2025년 7.5% 성장. 세계 최고 성장률 유지"
+    },
+    {
+      "rank": 7,
+      "country": "영국 (United Kingdom)",
+      "flag": "🇬🇧",
+      "sentiment": "mixed",
+      "color": "yellow",
+      "gdp_growth": 1.0,
+      "inflation": 3.8,
+      "unemployment": 4.8,
+      "stock_index": "FTSE 100: 8,334 (+7.2% YTD)",
+      "representative_companies": [
+        {"name": "Shell", "sector": "에너지", "icon": "⛽"},
+        {"name": "HSBC", "sector": "금융", "icon": "🏦"},
+        {"name": "AstraZeneca", "sector": "제약", "icon": "💊"},
+        {"name": "BP", "sector": "에너지", "icon": "⛽"},
+        {"name": "Vodafone", "sector": "통신", "icon": "📞"}
+      ],
+      "key_issues": "브렉시트 후 적응, 인플레이션 압력, 노동 불안",
+      "investment_themes": "에너지, 금융, 제약",
+      "outlook": "2025년 1.2% 성장. 정치적 안정성 중요"
+    }
+  ],
+  "global_indicators": {
+    "us_fed_rate": {"value": 4.5, "trend": "down", "color": "green"},
+    "global_inflation": {"value": 5.8, "trend": "down", "color": "green"},
+    "vix": {"value": 16.5, "trend": "low", "color": "green"},
+    "treasury_10y": {"value": 4.2, "trend": "stable", "color": "yellow"},
+    "oil_wti": {"value": 85, "trend": "stable", "color": "yellow"},
+    "usd_index": {"value": 103.5, "trend": "strong", "color": "yellow"},
+    "bitcoin": {"value": 72300, "trend": "up", "color": "green"}
+  },
+  "gici_score": {
+    "current": 65,
+    "previous": 67,
+    "change": -2,
+    "reason": "한국 시장 부진 반영"
+  },
+  "korea_themes": [
+    {"name": "반도체 & AI", "ytd": -5, "signal": "선별 매수"},
+    {"name": "인터넷 & 플랫폼", "ytd": 12, "signal": "매수"},
+    {"name": "금융", "ytd": 8, "signal": "매수"},
+    {"name": "2차전지", "ytd": -15, "signal": "회피"},
+    {"name": "바이오 & 제약", "ytd": 3, "signal": "선별 매수"},
+    {"name": "건설 & 부동산", "ytd": -12, "signal": "회피"},
+    {"name": "방위산업", "ytd": 25, "signal": "매수"},
+    {"name": "조선 & 해운", "ytd": 18, "signal": "매수"}
+  ]
+}
