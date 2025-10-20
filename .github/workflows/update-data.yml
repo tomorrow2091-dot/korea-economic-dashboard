@@ -2,9 +2,9 @@ name: 🔄 실시간 데이터 자동 업데이트
 
 on:
   schedule:
-    # 매일 한국 시간 오전 9시, 오후 6시 (UTC 0시, 9시)
-    -cron: '*/15 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
+
 
 permissions:
   contents: write
