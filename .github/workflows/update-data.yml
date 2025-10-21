@@ -31,7 +31,7 @@ jobs:
         ALPHA_VANTAGE_KEY: ${{ secrets.ALPHA_VANTAGE_KEY }}
         FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
         BANK_OF_KOREA_KEY: ${{ secrets.BANK_OF_KOREA_KEY }}
-      run: python update_dashboard_data.py   # ← 여기를 변경!!
+      run: python update_dashboard_data.py
 
     - name: 📝 Git 설정
       run: |
@@ -43,7 +43,8 @@ jobs:
         GH_PAT: ${{ secrets.GH_PAT }}
       run: |
         git remote set-url origin https://x-access-token:${GH_PAT}@github.com/${{ github.repository }}
-        git add .
+        git pull origin main --rebase
+        git add data/dashboard_data.json
         if git diff --staged --quiet; then
           echo "ℹ️ 변경사항 없음 - 커밋 생략"
         else
@@ -51,4 +52,3 @@ jobs:
           git push origin main
           echo "✅ 데이터 업데이트 완료"
         fi
-
